@@ -10,5 +10,6 @@ package tourandtravel.interfc;
  * @author Ferawidya
  */
 public interface Pembayaran {
-    
+    public int bayar();
+    public void konfirmasi();
 }
